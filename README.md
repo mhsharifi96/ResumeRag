@@ -1,4 +1,18 @@
-# CV RAG (Django + Postgres + pgvector + LangChain)
+# CV RAG (Django + Postgres + pgvector + LangChain) - Resume RAG
+
+## Overview
+CV RAG is a resume screening and candidate search platform built with Django, PostgreSQL, pgvector, LangChain, Redis, and OpenAI embeddings. It enables organizations to create job postings, upload candidate CVs, automatically extract and analyze skills, rank applicants against job requirements, and perform natural-language queries across a job's candidate pool using Retrieval-Augmented Generation (RAG).
+
+### Key Features
+- Multi-organization support
+- Job creation and requirement extraction
+- Bulk CV upload and processing
+- Vector-based semantic search with pgvector
+- AI-powered candidate ranking and scoring
+- Natural-language chat over candidate CVs (RAG)
+- Asynchronous document processing with Celery and Redis
+- Docker and local development support
+
 
 ## Requirements
 - Python 3.11+
